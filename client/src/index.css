@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Font';
+  src: url('./assets/fonts/static/NotoSans-ExtraBold.ttf') format('truetype'); /* Use 'truetype' format */
+  font-weight: 500; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+@font-face {
+  font-family: 'Font-thin';
+  src: url('./assets/fonts/static/NotoSans-SemiBold.ttf') format('truetype'); /* Use 'truetype' format */
+  font-weight: 500; /* Adjust as needed */
+  font-style: normal; /* Adjust as needed */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Font', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Font', sans-serif;
+}
+
+p,span{
+  font-family: 'Font-thin', sans-serif;
+}
